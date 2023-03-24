@@ -4,3 +4,4 @@ Holbos
 Среда разработки PyCharm, HTML, CSS, Framework Django 
 Кирпичинка
 МПИТ Финал 2023
+https://github.com/CharbDevil/Holbos/blob/main/events.html
