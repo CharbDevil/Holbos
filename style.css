@@ -1,0 +1,166 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 59px;
+    color: whitesmoke;
+}
+.wrapper{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+/*cringe header start*/
+.header{
+    background-color: #1A181B;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.header_list {
+    display: flex;
+    align-items: center;
+}
+.header_item {
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 100px;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    align-items: center;
+}
+.intro{
+    background: url(../img/Rectangle.png) no-repeat center;
+}
+/*cringe intro start*/
+.intro{
+    height: 709px;
+    background-size: cover;
+    padding-top: 200px;
+    font-family: Montserrat;
+}
+.header_link{
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+.intro_title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+    margin-bottom: 44px;
+    max-width: 615px;
+    text-transform: uppercase;
+}
+.intro_subtitle{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+.search-form_info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-from_submit{
+    padding: 20px 26px;
+    margin-left: 230px;
+    margin-top: 48px;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: #F19A3E;
+    border-radius: 15px;
+    font-family: Montserrat;
+}
+.pic{
+    float: left;
+}
+.text{
+    margin-left: 500px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+/*Нижняя часть*/
+.section{
+    background-color: #1A181B;
+    padding-top: 113px;
+    height: 1574px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    padding-left: 123px;
+}
+.text2{
+    padding-top: 80px;
+    margin-left: 500px;
+    line-height: 93px;
+}
+.pic2{
+    float: left;
+}
+.bruh{
+    padding-right: 50px;
+}
+.title1{
+    padding-top: 195px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*scroll*/
+.scroll{
+    max-height:120px;
+    display: flex;
+    overflow-x: auto;
+    border: 1px solid;
+    margin-right: 123px;
+    margin-top: 44px;
+    padding-bottom: 500px;
+}
+.scroll::-webkit-scrollbar{
+    width: 0;
+}
+.scroll .item{
+    width: 2126px;
+    height: 523px;
+    line-height: 110px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.button2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cringe_button{
+    padding: 20px 26px;
+    margin-left: 500px;
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: #F9B166;
+    border-radius: 15px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+/*footer*/
+.footer{
+    background-color: #2D2D32;
+    padding-top: 66px;
+}
